@@ -1,0 +1,61 @@
+
+@font-face {
+    font-family: FreshMan;
+    src: url(Freshman.ttf);
+}
+
+@font-face {
+    font-family: Glitch;
+    src: url(Doctor\ Glitch.otf);
+}
+
+
+
+:root {
+
+    --background-color:#29B379;
+    --body-p:#255240;
+    --li:#daffed;
+    --h1:#53f1bd;
+    --a:#7fffd4;
+    --Font1: Freshman;
+    --Font2: Glitch;
+
+}
+
+
+
+body {
+    background-color: var(--background-color);
+    width: 500px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body p {
+    color: var(--body-p);
+    text-align: justify;
+    font-family: var(--Font1);
+
+    }
+
+
+li {
+    color: var(--li);
+}
+
+h1 {
+    color: var(--h1);
+    font-family: var(--Font2)
+}
+ 
+div {
+    text-align: center;
+}
+
+a {
+    color: var(--a);
+}
+
